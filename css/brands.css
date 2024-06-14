@@ -50,7 +50,7 @@ button:hover,
 
 .button.button-gitlab {
   color: #FFFFFF;
-  background: #6151B2;
+  background: #4B3E8C;
 }
 .button.button-gitlab:hover,
 .button.button-gitlab:focus {
@@ -59,7 +59,7 @@ button:hover,
 
 .button.button-fiverr {
   color: #FFFFFF;
-  background: #1DBF73;
+  background: #17995C;
 }
 .button.button-fiverr:hover,
 .button.button-fiverr:focus {
@@ -68,23 +68,9 @@ button:hover,
 
 .button.button-upwork {
   color: #FFFFFF;
-  background: #14A800;
+  background: #108600;
 }
 .button.button-upwork:hover,
 .button.button-upwork:focus {
   filter: brightness(90%);
-}
-
-@media (prefers-color-scheme: dark) {
-  .button.button-gitlab {
-    background: #4B3E8C;
-  }
-
-  .button.button-fiverr {
-    background: #17995C;
-  }
-
-  .button.button-upwork {
-    background: #108600;
-  }
 }
